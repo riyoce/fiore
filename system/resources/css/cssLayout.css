@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Garden';
+  src: url('garden.otf');
+}
+
+#header{
+    width: 900px;
+    height: 181px;
+    margin: 0 auto;
+    background-image: url("../images/header.jpg");    
+}
+
+#logo {
+    width: 162px;
+    height: 72px;
+    background-image: url("../images/logo.png");
+    margin-left: 20px;
+}
+
+#menu {
+    width: 628px;
+    height: 70px;
+    font-family: 'Garden';
+    color: #fff;
+    display:block;
+    padding:0px 10px 0 10px;           
+    text-decoration:none;
+    text-align:center;   
+    font-size:40px;
+    line-height:70px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 5px;
+}
+
+#content{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    font-family: Helvetica;
+}
+
+#data{
+    
+}
+
+#data table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+#data tr:nth-of-type(odd) { 
+  background: #fff; 
+} 
+#data th { 
+  background: yellowgreen; 
+  color: white; 
+  font-weight: bold; 
+}
+#data td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+.delte_icon{
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
